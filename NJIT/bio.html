@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bio Page</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta author="Aaditya Metrani">
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+
+    .bio-container {
+      position: relative;
+      z-index: 1;
+      top: 10px; 
+      margin-bottom: 50px; 
+      background-color: #5F0F40; 
+      padding: 50px; 
+      border-radius: 15px; 
+      color: white; 
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+    .bio-container h1 {
+      color: #E36414; 
+    }
+
+    .right-box {
+      position: relative;
+      z-index: 1;
+      margin-top: 10px; 
+      margin-bottom: 50px; 
+      background-color: #9A031E; 
+      padding: 50px; 
+      border-radius: 15px; 
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+    .orange-box {
+      position: relative;
+      z-index: 1;
+      margin-top: 10px; 
+      background-color: #E36414; 
+      padding: 50px; 
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+
+    .navbar-nav .nav-link:hover {
+      color: white;
+      background-color: #E36414;
+    }
+
+
+    .navbar {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body class="mybackground">
+<section class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="logo.png" alt="My Website" width="150px" height="200px"></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link bol" href="bio.html">Bio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+         </div>
+    </nav>
+</section>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-6">
+      <div class="bio-container ms-5 me-5 ps-5 pe-5">
+        <h1 class="text-p text-white">Welcome to my website!</h1>
+        <p>
+          I'm Aaditya Metrani, I enjoy go karting and woodworking. As I plan to major in Business, 
+          my ultimate goal is to pursue a career in Real Estate.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="right-box ms-5 me-5 ps-5 pe-5">
+        <img src="twister_100125.jpg" alt="kart" style="width: 100%;" /> 
+      </div>
+
+
+      <div class="orange-box ms-5 me-5 ps-5 pe-5">
+        <img src="shine-company-outdoor-benches-4205oa-64_1000.jpg" alt="bench" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
